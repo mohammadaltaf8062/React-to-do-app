@@ -38,7 +38,7 @@ function App() {
     setTasks(tasks.filter((task) => task.id !== id));
   };
 
-  // Toggle  Complete
+  // Toggle     Complete
   const toggleComplete = (id) => {
     setTasks(
       tasks.map((task) =>

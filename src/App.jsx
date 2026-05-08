@@ -69,13 +69,13 @@ function App() {
           />
 
           <button onClick={addTask}>
-            {editId !== null ? 'Update' : 'Add'}
+            {editId !== null ?  'Update' : 'Add'}
           </button>
         </div>
 
         <ToDoList
           tasks={tasks}
-          deleteTask={deleteTask}
+          deleteTask= {deleteTask}
           toggleComplete={toggleComplete}
           editTask={editTask}
         />
